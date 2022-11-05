@@ -144,7 +144,7 @@ export default function Mint() {
   }, [mints, presaleStart, saleStart, salePrice, preSalePrice, isWhitelisted]);
   const spinMints = (dir) => {
     if (dir === "+") {
-      if (mints < 5) setMints(mints + 1);
+      if (mints < 10) setMints(mints + 1);
     }
     if (dir === "-") {
       if (mints > 1) setMints(mints - 1);
@@ -349,7 +349,7 @@ export default function Mint() {
             md={6}
             sm={6}
           >
-            <h3 style={{ marginRight: "16px" }}>5 Max</h3>
+            <h3 style={{ marginRight: "16px" }}>10 Max</h3>
           </Col>
         </Row>
         <Row className="m-total">
