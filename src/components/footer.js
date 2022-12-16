@@ -6,8 +6,8 @@ import telegram from "../assets/images/telegram.gif";
 
 export default function Footer() {
     return (
-        <div className='footer'>
         <div id="rubic-widget-root"></div>
+        <div className='footer'>
             <Container>
                 <Row>
                     <Col lg={12} sm={12} md={12}>
