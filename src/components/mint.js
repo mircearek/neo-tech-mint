@@ -405,6 +405,6 @@ export default function Mint() {
         handleClose={closeTxModal}
       />
     </div>
-    <div id="rubic-widget-root"></div>
+    
   );
 }
