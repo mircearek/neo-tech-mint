@@ -395,7 +395,6 @@ export default function Mint() {
             </button>
           )}
         </Row>
-        <div id="rubic-widget-root"></div>
       </Container>
       <TxModal
         showTxModal={showTxModal}
