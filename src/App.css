@@ -322,3 +322,6 @@
   margin: 10px 8px;
   cursor:pointer;
 }
+.rubic iframe {
+  max-width: 100%;
+}
